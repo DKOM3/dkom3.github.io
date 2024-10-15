@@ -43,7 +43,7 @@ button:hover {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 body {
-    background-image: url('premium_photo-1664300792059-863ccfe55932.jpg');
+    background-image: url('https://github.com/DKOM3/dkom3.github.io/blob/main/premium_photo-1664300792059-863ccfe55932.jpg');
     background-size: cover; /* This makes the image cover the entire background */
     background-position: center; /* This centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
