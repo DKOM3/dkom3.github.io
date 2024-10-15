@@ -42,3 +42,9 @@ button:hover {
     background-color: #fff; /* White background for the quote */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
+body {
+    background-image: url('.jpg');
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
