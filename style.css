@@ -13,8 +13,8 @@ body {
 
 /* Button styles */
 button {
-    background-color: #007bff; /* Blue color */
-    color: red;
+    background-color: #ff0000; /* Red color */
+    color: white;
     border: none;
     padding: 12px 24px;
     font-size: 18px;
