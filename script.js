@@ -5,7 +5,7 @@ const quotes = [
     "Life is 10% what happens to us and 90% how we react to it.",
     "You have within you right now, everything you need to deal with whatever the world can throw at you.",
     "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-    "Life is either a daring adventure or nothing at all.",
+    "Life is either a daring adventure or nothing at all."
     
 ];
 
