@@ -43,7 +43,7 @@ button:hover {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 body {
-    background-image: url('https://dkom3.github.io/repo/main/scenic-image-iceland-incredible-nature-600nw-1453557041.jpg.webp');
+    background-image: url('https://dkom3.github.io/repo/main/scenic-image-iceland-incredible-nature-600nw-1453557041.jpg.');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
