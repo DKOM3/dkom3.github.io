@@ -1,15 +1,12 @@
 const quotes = [
-    "The best way to predict the future is to create it.",
-    "You only live once, but if you do it right, once is enough.",
-    "In the end, we only regret the chances we didn’t take.",
-    "Life is 10% what happens to us and 90% how we react to it.",
-    "You have within you right now, everything you need to deal with whatever the world can throw at you.",
-    "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-    "Life is either a daring adventure or nothing at all."
-    
+    "The only way to do great work is to love what you do. – Steve Jobs",
+    "Believe you can and you're halfway there. – Theodore Roosevelt",
+    "The future belongs to those who believe in the beauty of their dreams. – Eleanor Roosevelt",
+    "Life is what happens when you're busy making other plans. – John Lennon",
+    "You only live once, but if you do it right, once is enough. – Mae West"
 ];
 
-document.getElementById("quote-button").addEventListener("click", function() {
+document.getElementById('get-quote').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
-    document.getElementById("quote-display").textContent = quotes[randomIndex];
+    document.getElementById('quote-display').textContent = quotes[randomIndex];
 });
