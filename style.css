@@ -47,4 +47,6 @@ body {
     background-size: cover; /* This makes the image cover the entire background */
     background-position: center; /* This centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;
+    margin: 0;
 }
