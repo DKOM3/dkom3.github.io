@@ -52,3 +52,10 @@ body {
     height: 100vh;
     margin: 0;
 }
+.button-container {
+    text-align: center; /* Centering buttons horizontally */
+}
+
+button {
+    margin: 10px; /* Optional: spacing between buttons */
+}
