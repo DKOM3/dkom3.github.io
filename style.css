@@ -29,7 +29,7 @@ button {
 
 /* Button hover effect */
 button:hover {
-    background-color: #c70202; /* Darker red on hover */
+    background-color: #0000ff; /* Darker red on hover */
 }
 
 /* Quote display styles */
