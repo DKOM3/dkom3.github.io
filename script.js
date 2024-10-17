@@ -10,3 +10,10 @@ document.getElementById('get-quote').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById('quote-display').textContent = quotes[randomIndex];
 });
+document.getElementById("popupButton").onclick = function() {
+    document.getElementById("imagePopup").style.display = "block";
+};
+
+document.getElementById("closeButton").onclick = function() {
+    document.getElementById("imagePopup").style.display = "none";
+};
