@@ -8,17 +8,3 @@ document.getElementById('get-quote').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById('quote-display').textContent = quotes[randomIndex];
 });
-    }
-
-    if (popupButton && imagePopup) {
-        popupButton.addEventListener('click', function() {
-            imagePopup.style.display = "block";
-        });
-    }
-
-    if (closeButton && imagePopup) {
-        closeButton.addEventListener('click', function() {
-            imagePopup.style.display = "none";
-        });
-    }
-});
