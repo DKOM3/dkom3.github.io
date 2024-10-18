@@ -9,11 +9,24 @@ const quotes = [
 document.getElementById('get-quote').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById('quote-display').textContent = quotes[randomIndex];
-});
-document.getElementById("popupButton").onclick = function() {
-    document.getElementById("imagePopup").style.display = "block";
-};
+document.addEventListener('DOMContentLoaded', function() {
+    const popupButton = document.getElementById("popupButton");
+    const imagePopup = document.getElementById("imagePopup");
+    const closeButton = document.getElementById("closeButton");
 
-document.getElementById("closeButton").onclick = function() {
-    document.getElementById("imagePopup").style.display = "none";
-};
+    if (popupButton) {
+        popupButton.addEventListener('click', function() {
+            if (imagePopup) {
+                imagePopup.style.display = "block";
+            }
+        });
+    }
+
+    if (closeButton) {
+        closeButton.addEventListener('click', function() {
+            if (imagePopup) {
+                imagePopup.style.display = "none";
+            }
+        });
+    }
+});
