@@ -9,6 +9,7 @@ const quotes = [
 document.getElementById('get-quote').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById('quote-display').textContent = quotes[randomIndex];
+    
 document.addEventListener('DOMContentLoaded', function() {
     const popupButton = document.getElementById("popupButton");
     const imagePopup = document.getElementById("imagePopup");
