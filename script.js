@@ -6,14 +6,19 @@ const quotes = [
     "You only live once, but if you do it right, once is enough. – Mae West"
 ];
 
-document.getElementById('get-quote').addEventListener('click', function() {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    document.getElementById('quote-display').textContent = quotes[randomIndex];
-    
 document.addEventListener('DOMContentLoaded', function() {
+    const quoteButton = document.getElementById('get-quote');
+    const quoteDisplay = document.getElementById('quote-display');
     const popupButton = document.getElementById("popupButton");
     const imagePopup = document.getElementById("imagePopup");
     const closeButton = document.getElementById("closeButton");
+
+    if (quoteButton) {
+        quoteButton.addEventListener('click', function() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            quoteDisplay.textContent = quotes[randomIndex];
+        });
+    }
 
     if (popupButton) {
         popupButton.addEventListener('click', function() {
